@@ -69,6 +69,11 @@ public class Visitor {
         return results;
     }
 
+    /**
+     * Prints the contents of the text file to the console.
+     * @param fullName the name of the visitor.
+     * @return returns the contents of the text file.
+     */
     public String load(String fullName) {
 
         String fileName = "visitor_"+fullName.split(" ")[0].toLowerCase() +"_" +
