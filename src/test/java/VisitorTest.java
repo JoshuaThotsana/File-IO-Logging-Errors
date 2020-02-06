@@ -14,6 +14,9 @@ class VisitorTest {
 
     @Test
     void load() {
+
+        assertNotNull(alice.load("Alice Cooper"));
+
     }
 
 }
